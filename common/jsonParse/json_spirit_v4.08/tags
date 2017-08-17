@@ -1,0 +1,589 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_TARGETS	Makefile	/^ALL_TARGETS	= $(TARGET1)$/;"	m
+Address	json_demo/json_demo.cpp	/^struct Address$/;"	s	file:
+Address	json_demo_test.cpp	/^struct Address$/;"	s	file:
+Address	json_headers_only_demo/json_headers_only_demo.cpp	/^struct Address$/;"	s	file:
+Address	json_map_demo/json_map_demo.cpp	/^struct Address$/;"	s	file:
+Array	json_spirit/json_spirit_value.h	/^        typedef typename Config::Array_type Array;$/;"	t	class:json_spirit::Value_impl
+Array	json_spirit/json_spirit_value.h	/^    typedef Config::Array_type  Array;$/;"	t	namespace:json_spirit
+Array_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	class:json_spirit::Semantic_actions
+Array_type	json_spirit/json_spirit_value.h	/^        typedef std::vector< Value_type > Array_type;$/;"	t	struct:json_spirit::Config_map
+Array_type	json_spirit/json_spirit_value.h	/^        typedef std::vector< Value_type > Array_type;$/;"	t	struct:json_spirit::Config_vector
+Array_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	class:json_spirit::Generator
+Array_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	struct:__anon3::Test_runner	file:
+Array_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	struct:__anon2::Test_runner	file:
+Array_type	json_test/json_spirit_value_test.cpp	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	class:__anon1::Container_constructor_runner	file:
+Array_type	json_test/json_spirit_value_test.cpp	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	class:__anon1::Variant_constructor_runner	file:
+Array_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename Config_type::Array_type Array_type;$/;"	t	struct:__anon4::Test_runner	file:
+BUILD	Makefile	/^BUILD	   ?= debug$/;"	m
+CPP	Makefile	/^CPP			= g++$/;"	m
+CPPFLAGS	Makefile	/^	CPPFLAGS = $(INCLUDE) -fPIC -O2$/;"	m
+CPPFLAGS	Makefile	/^	CPPFLAGS = $(INCLUDE) -fPIC -g$/;"	m
+Char_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename Istream_type::char_type Char_type;$/;"	t	struct:json_spirit::Multi_pass_iters
+Char_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename String_type::value_type Char_type;$/;"	t	class:json_spirit::Semantic_actions
+Char_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename String_type::value_type Char_type;$/;"	t	class:json_spirit::Generator
+Char_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename String_type::value_type  Char_type;$/;"	t	struct:__anon3::Test_runner	file:
+Char_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename String_type::value_type  Char_type;$/;"	t	struct:__anon2::Test_runner	file:
+Char_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename String_type::value_type Char_type;$/;"	t	struct:__anon4::Test_runner	file:
+Config	json_spirit/json_spirit_value.h	/^    typedef Config_vector< std::string > Config;$/;"	t	namespace:json_spirit
+Config_map	json_spirit/json_spirit_value.h	/^    struct Config_map$/;"	s	namespace:json_spirit
+Config_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename Value_type::Config_type Config_type;$/;"	t	class:json_spirit::Semantic_actions
+Config_type	json_spirit/json_spirit_value.h	/^        typedef Config Config_type;$/;"	t	class:json_spirit::Value_impl
+Config_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename Value_type::Config_type Config_type;$/;"	t	class:json_spirit::Generator
+Config_vector	json_spirit/json_spirit_value.h	/^    struct Config_vector$/;"	s	namespace:json_spirit
+Const_str_ptr	json_spirit/json_spirit_value.h	/^        typedef typename String_type::const_pointer Const_str_ptr;  \/\/ eg const char*$/;"	t	class:json_spirit::Value_impl
+Container_constructor_runner	json_test/json_spirit_value_test.cpp	/^        Container_constructor_runner()$/;"	f	class:__anon1::Container_constructor_runner
+Container_constructor_runner	json_test/json_spirit_value_test.cpp	/^    class Container_constructor_runner$/;"	c	namespace:__anon1	file:
+Error_position	json_spirit/json_spirit_error_position.h	/^    inline Error_position::Error_position( unsigned int line, unsigned int column, const std::string& reason )$/;"	f	class:json_spirit::Error_position
+Error_position	json_spirit/json_spirit_error_position.h	/^    inline Error_position::Error_position()$/;"	f	class:json_spirit::Error_position
+Error_position	json_spirit/json_spirit_error_position.h	/^    struct Error_position$/;"	s	namespace:json_spirit
+GEN_OBJS	Makefile	/^GEN_OBJS	= json_spirit\/json_spirit_reader.o json_spirit\/json_spirit_value.o json_spirit\/json_spirit_writer.o json_demo_test.o $/;"	m
+Generator	json_spirit/json_spirit_writer_template.h	/^        Generator( const Value_type& value, Ostream_type& os, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit::Generator
+Generator	json_spirit/json_spirit_writer_template.h	/^    class Generator$/;"	c	namespace:json_spirit
+INCLUDE	Makefile	/^INCLUDE		= -I json_spirit\/$/;"	m
+Ints	json_test/json_spirit_reader_test.cpp	/^        typedef vector< int > Ints;$/;"	t	struct:__anon3::Test_runner	file:
+Istream_type	json_test/json_spirit_reader_test.cpp	/^        typedef std::basic_istream< Char_type > Istream_type;$/;"	t	struct:__anon3::Test_runner	file:
+Istream_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef std::basic_istream< Char_type > Istream_type;$/;"	t	struct:__anon2::Test_runner	file:
+Istringstream_type	json_test/json_spirit_reader_test.cpp	/^        typedef std::basic_istringstream< Char_type > Istringstream_type;$/;"	t	struct:__anon3::Test_runner	file:
+Istringstream_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef std::basic_istringstream< Char_type > Istringstream_type;$/;"	t	struct:__anon2::Test_runner	file:
+Iter_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename String_type::const_iterator Iter_type;$/;"	t	struct:__anon3::Test_runner	file:
+Iter_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename String_type::const_iterator Iter_type;$/;"	t	struct:__anon2::Test_runner	file:
+Iter_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename String_type::const_iterator Iter_type;$/;"	t	struct:__anon4::Test_runner	file:
+JSON_SPIRIT	json_spirit/json_spirit.h	2;"	d
+JSON_SPIRIT_ERROR_POSITION	json_spirit/json_spirit_error_position.h	2;"	d
+JSON_SPIRIT_MVALUE_ENABLED	json_spirit/json_spirit_value.h	27;"	d
+JSON_SPIRIT_READER	json_spirit/json_spirit_reader.h	2;"	d
+JSON_SPIRIT_READER_TEMPLATE	json_spirit/json_spirit_reader_template.h	2;"	d
+JSON_SPIRIT_READER_TEST	json_test/json_spirit_reader_test.h	2;"	d
+JSON_SPIRIT_READ_STREAM	json_spirit/json_spirit_stream_reader.h	2;"	d
+JSON_SPIRIT_STREAM_READER_TEST	json_test/json_spirit_stream_reader_test.h	2;"	d
+JSON_SPIRIT_TEST_UTILS	json_test/utils_test.h	2;"	d
+JSON_SPIRIT_UTILS	json_spirit/json_spirit_utils.h	2;"	d
+JSON_SPIRIT_UTILS_TEST	json_test/json_spirit_utils_test.h	2;"	d
+JSON_SPIRIT_VALUE	json_spirit/json_spirit_value.h	2;"	d
+JSON_SPIRIT_VALUE_ENABLED	json_spirit/json_spirit_value.h	25;"	d
+JSON_SPIRIT_VALUE_TEST	json_test/json_spirit_value_test.h	2;"	d
+JSON_SPIRIT_WMVALUE_ENABLED	json_spirit/json_spirit_value.h	28;"	d
+JSON_SPIRIT_WRITER	json_spirit/json_spirit_writer.h	2;"	d
+JSON_SPIRIT_WRITER_OPTIONS	json_spirit/json_spirit_writer_options.h	2;"	d
+JSON_SPIRIT_WRITER_TEMPLATE	json_spirit/json_spirit_writer_template.h	2;"	d
+JSON_SPIRIT_WRITER_TEST	json_test/json_spirit_writer_test.h	2;"	d
+JSON_SPIRIT_WVALUE_ENABLED	json_spirit/json_spirit_value.h	26;"	d
+Json_grammer	json_spirit/json_spirit_reader_template.h	/^        Json_grammer( Semantic_actions_t& semantic_actions )$/;"	f	class:json_spirit::Json_grammer
+Json_grammer	json_spirit/json_spirit_reader_template.h	/^    class Json_grammer : public spirit_namespace::grammar< Json_grammer< Value_type, Iter_type > >$/;"	c	namespace:json_spirit
+LDFLAGS	Makefile	/^LDFLAGS		= $(LIBS) $/;"	m
+LIBS	Makefile	/^LIBS		= -Llib\/ $/;"	m
+Mapped_obj	json_spirit/json_spirit_utils.h	/^    typedef std::map< std::string, Value > Mapped_obj;$/;"	t	namespace:json_spirit
+Mp_iter	json_spirit/json_spirit_reader_template.h	/^        typedef spirit_namespace::multi_pass< istream_iter > Mp_iter;$/;"	t	struct:json_spirit::Multi_pass_iters
+Mp_iters	json_spirit/json_spirit_stream_reader.h	/^        typedef Multi_pass_iters< Istream_type > Mp_iters;$/;"	t	class:json_spirit::Stream_reader
+Mp_iters	json_spirit/json_spirit_stream_reader.h	/^        typedef Multi_pass_iters< Istream_type > Mp_iters;$/;"	t	class:json_spirit::Stream_reader_thrower
+Multi_pass_iters	json_spirit/json_spirit_reader_template.h	/^        Multi_pass_iters( Istream_type& is )$/;"	f	struct:json_spirit::Multi_pass_iters
+Multi_pass_iters	json_spirit/json_spirit_reader_template.h	/^    struct Multi_pass_iters$/;"	s	namespace:json_spirit
+Null	json_spirit/json_spirit_value.h	/^    struct Null{};$/;"	s	namespace:json_spirit
+OBJS1	Makefile	/^OBJS1		= $(GEN_OBJS) $/;"	m
+Obj_member_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename Object_type::value_type Obj_member_type;$/;"	t	class:json_spirit::Generator
+Object	json_spirit/json_spirit_value.h	/^        typedef typename Config::Object_type Object;$/;"	t	class:json_spirit::Value_impl
+Object	json_spirit/json_spirit_value.h	/^    typedef Config::Object_type Object;$/;"	t	namespace:json_spirit
+Object_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename Config_type::Object_type Object_type;$/;"	t	class:json_spirit::Semantic_actions
+Object_type	json_spirit/json_spirit_value.h	/^        typedef std::map< String_type, Value_type > Object_type;$/;"	t	struct:json_spirit::Config_map
+Object_type	json_spirit/json_spirit_value.h	/^        typedef std::vector< Pair_type > Object_type;$/;"	t	struct:json_spirit::Config_vector
+Object_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename Config_type::Object_type Object_type;$/;"	t	class:json_spirit::Generator
+Object_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename Config_type::Object_type Object_type;$/;"	t	struct:__anon3::Test_runner	file:
+Object_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename Config_type::Object_type Object_type;$/;"	t	struct:__anon2::Test_runner	file:
+Object_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename Config_type::Object_type Object_type;$/;"	t	struct:__anon4::Test_runner	file:
+Ostream_type	json_test/json_spirit_writer_test.cpp	/^        typedef std::basic_ostream< Char_type > Ostream_type;$/;"	t	struct:__anon4::Test_runner	file:
+Output_options	json_spirit/json_spirit_writer_options.h	/^    enum Output_options{ none = 0,              \/\/ default options$/;"	g	namespace:json_spirit
+Pair	json_spirit/json_spirit_value.h	/^    typedef Config::Pair_type   Pair;$/;"	t	namespace:json_spirit
+Pair_impl	json_spirit/json_spirit_value.h	/^        Pair_impl()$/;"	f	struct:json_spirit::Pair_impl
+Pair_impl	json_spirit/json_spirit_value.h	/^    Pair_impl< Config >::Pair_impl( const String_type& name, const Value_type& value )$/;"	f	class:json_spirit::Pair_impl
+Pair_impl	json_spirit/json_spirit_value.h	/^    struct Pair_impl$/;"	s	namespace:json_spirit
+Pair_type	json_spirit/json_spirit_value.h	/^        typedef Pair_impl < Config_vector > Pair_type;$/;"	t	struct:json_spirit::Config_vector
+Pair_type	json_spirit/json_spirit_value.h	/^        typedef std::pair< const String_type, Value_type > Pair_type;$/;"	t	struct:json_spirit::Config_map
+Pair_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename Config_type::Pair_type Pair_type;$/;"	t	struct:__anon3::Test_runner	file:
+Pair_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename Config_type::Pair_type Pair_type;$/;"	t	struct:__anon2::Test_runner	file:
+Pair_type	json_test/json_spirit_utils_test.cpp	/^        typedef typename Obj_t::value_type  Pair_type;$/;"	t	struct:__anon5::Test_runner	file:
+Posn_iter_t	json_spirit/json_spirit_stream_reader.h	/^        typedef spirit_namespace::position_iterator< typename Mp_iters::Mp_iter > Posn_iter_t;$/;"	t	class:json_spirit::Stream_reader_thrower
+Semantic_actions	json_spirit/json_spirit_reader_template.h	/^        Semantic_actions( Value_type& value )$/;"	f	class:json_spirit::Semantic_actions
+Semantic_actions	json_spirit/json_spirit_reader_template.h	/^    class Semantic_actions $/;"	c	namespace:json_spirit
+Semantic_actions_t	json_spirit/json_spirit_reader_template.h	/^        typedef Semantic_actions< Value_type, Iter_type > Semantic_actions_t;$/;"	t	class:json_spirit::Json_grammer
+Stream_reader	json_spirit/json_spirit_stream_reader.h	/^        Stream_reader( Istream_type& is )$/;"	f	class:json_spirit::Stream_reader
+Stream_reader	json_spirit/json_spirit_stream_reader.h	/^    class Stream_reader$/;"	c	namespace:json_spirit
+Stream_reader_thrower	json_spirit/json_spirit_stream_reader.h	/^        Stream_reader_thrower( Istream_type& is )$/;"	f	class:json_spirit::Stream_reader_thrower
+Stream_reader_thrower	json_spirit/json_spirit_stream_reader.h	/^    class Stream_reader_thrower$/;"	c	namespace:json_spirit
+String_type	json_spirit/json_spirit_reader_template.h	/^        typedef typename Config_type::String_type String_type;$/;"	t	class:json_spirit::Semantic_actions
+String_type	json_spirit/json_spirit_value.h	/^        typedef String String_type;$/;"	t	struct:json_spirit::Config_map
+String_type	json_spirit/json_spirit_value.h	/^        typedef String String_type;$/;"	t	struct:json_spirit::Config_vector
+String_type	json_spirit/json_spirit_value.h	/^        typedef typename Config::String_type String_type;$/;"	t	class:json_spirit::Value_impl
+String_type	json_spirit/json_spirit_value.h	/^        typedef typename Config::String_type String_type;$/;"	t	struct:json_spirit::Pair_impl
+String_type	json_spirit/json_spirit_writer_template.h	/^        typedef typename Config_type::String_type String_type;$/;"	t	class:json_spirit::Generator
+String_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename Config_type::String_type String_type;$/;"	t	struct:__anon3::Test_runner	file:
+String_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename Config_type::String_type String_type;$/;"	t	struct:__anon2::Test_runner	file:
+String_type	json_test/json_spirit_utils_test.cpp	/^        typedef typename Map_t::key_type    String_type;$/;"	t	struct:__anon5::Test_runner	file:
+String_type	json_test/json_spirit_value_test.cpp	/^        typedef typename Config_type::String_type String_type;$/;"	t	class:__anon1::Variant_constructor_runner	file:
+String_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename Config_type::String_type String_type;$/;"	t	struct:__anon4::Test_runner	file:
+TARGET1	Makefile	/^TARGET1		= json_demo_test $/;"	m
+Test_runner	json_test/json_spirit_reader_test.cpp	/^        Test_runner()$/;"	f	struct:__anon3::Test_runner
+Test_runner	json_test/json_spirit_reader_test.cpp	/^    struct Test_runner$/;"	s	namespace:__anon3	file:
+Test_runner	json_test/json_spirit_stream_reader_test.cpp	/^        Test_runner()$/;"	f	struct:__anon2::Test_runner
+Test_runner	json_test/json_spirit_stream_reader_test.cpp	/^    struct Test_runner$/;"	s	namespace:__anon2	file:
+Test_runner	json_test/json_spirit_utils_test.cpp	/^    struct Test_runner$/;"	s	namespace:__anon5	file:
+Test_runner	json_test/json_spirit_writer_test.cpp	/^    struct Test_runner$/;"	s	namespace:__anon4	file:
+Type_to_type	json_spirit/json_spirit_value.h	/^        struct Type_to_type$/;"	s	namespace:json_spirit::internal_
+UILD	Makefile	/^	override BUILD = debug$/;"	m
+UILD	Makefile	/^	override BUILD = release$/;"	m
+Value	json_spirit/json_spirit_value.h	/^    typedef Config::Value_type  Value;$/;"	t	namespace:json_spirit
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( Iter first, Iter last )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( bool value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( boost::int64_t value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( boost::uint64_t value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const Array& value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const Const_str_ptr value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const Object& value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const String_type& value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const Value_impl< Config >& other )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( const boost::variant< BOOST_VARIANT_ENUM_PARAMS(T) >& variant )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( double value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl( int value )$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    Value_impl< Config >::Value_impl()$/;"	f	class:json_spirit::Value_impl
+Value_impl	json_spirit/json_spirit_value.h	/^    class Value_impl$/;"	c	namespace:json_spirit
+Value_type	json_spirit/json_spirit_value.h	/^        typedef Value_impl< Config_map > Value_type;$/;"	t	struct:json_spirit::Config_map
+Value_type	json_spirit/json_spirit_value.h	/^        typedef Value_impl< Config_vector > Value_type;$/;"	t	struct:json_spirit::Config_vector
+Value_type	json_spirit/json_spirit_value.h	/^        typedef typename Config::Value_type Value_type;$/;"	t	struct:json_spirit::Pair_impl
+Value_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	g	namespace:json_spirit
+Value_type	json_test/json_spirit_reader_test.cpp	/^        typedef typename Config_type::Value_type Value_type;$/;"	t	struct:__anon3::Test_runner	file:
+Value_type	json_test/json_spirit_stream_reader_test.cpp	/^        typedef typename Config_type::Value_type Value_type;$/;"	t	struct:__anon2::Test_runner	file:
+Value_type	json_test/json_spirit_utils_test.cpp	/^        typedef typename Pair_type::Value_type Value_type;$/;"	t	struct:__anon5::Test_runner	file:
+Value_type	json_test/json_spirit_value_test.cpp	/^        typedef typename Config_type::Value_type Value_type;$/;"	t	class:__anon1::Container_constructor_runner	file:
+Value_type	json_test/json_spirit_value_test.cpp	/^        typedef typename Config_type::Value_type Value_type;$/;"	t	class:__anon1::Variant_constructor_runner	file:
+Value_type	json_test/json_spirit_writer_test.cpp	/^        typedef typename Config_type::Value_type Value_type;$/;"	t	struct:__anon4::Test_runner	file:
+Variant	json_spirit/json_spirit_value.h	/^                                String_type, bool, boost::int64_t, double, Null, boost::uint64_t > Variant;$/;"	t	class:json_spirit::Value_impl
+Variant_constructor_runner	json_test/json_spirit_value_test.cpp	/^        Variant_constructor_runner()$/;"	f	class:__anon1::Variant_constructor_runner
+Variant_constructor_runner	json_test/json_spirit_value_test.cpp	/^    class Variant_constructor_runner$/;"	c	namespace:__anon1	file:
+Variant_converter_visitor	json_spirit/json_spirit_value.h	/^        class Variant_converter_visitor : public boost::static_visitor< Variant > $/;"	c	class:json_spirit::Value_impl
+actions_	json_spirit/json_spirit_reader_template.h	/^        Semantic_actions_t& actions_;$/;"	m	class:json_spirit::Json_grammer
+add	json_spirit/json_spirit_value.h	/^        static Value_type& add( Object_type& obj, const String_type& name, const Value_type& value )$/;"	f	struct:json_spirit::Config_map
+add	json_spirit/json_spirit_value.h	/^        static Value_type& add( Object_type& obj, const String_type& name, const Value_type& value )$/;"	f	struct:json_spirit::Config_vector
+add_c_str	json_test/json_spirit_reader_test.cpp	/^        void add_c_str( Object_type& obj, const char* c_name, const char* c_value )$/;"	f	struct:__anon3::Test_runner
+add_c_str	json_test/json_spirit_writer_test.cpp	/^        void add_c_str( Object_type& obj, const char* c_name, const char* c_value )$/;"	f	struct:__anon4::Test_runner
+add_esc_char	json_spirit/json_spirit_writer_template.h	/^    bool add_esc_char( Char_type c, String_type& s )$/;"	f	namespace:json_spirit
+add_esc_chars	json_spirit/json_spirit_writer_template.h	/^    String_type add_esc_chars( const String_type& s, bool raw_utf8, bool esc_nonascii )$/;"	f	namespace:json_spirit
+add_first	json_spirit/json_spirit_reader_template.h	/^        Value_type* add_first( const Value_type& value )$/;"	f	class:json_spirit::Semantic_actions
+add_posn_iter_and_read_range_or_throw	json_spirit/json_spirit_reader_template.h	/^    void add_posn_iter_and_read_range_or_throw( Iter_type begin, Iter_type end, Value_type& value )$/;"	f	namespace:json_spirit
+add_to_current	json_spirit/json_spirit_reader_template.h	/^        Value_type* add_to_current( const Value_type& value )$/;"	f	class:json_spirit::Semantic_actions
+add_value	json_test/json_spirit_reader_test.cpp	/^        void add_value( Object_type& obj, const char* c_name, const Value_type& value )$/;"	f	struct:__anon3::Test_runner
+add_value	json_test/json_spirit_writer_test.cpp	/^        void add_value( Object_type& obj, const char* c_name, const Value_type& value )$/;"	f	struct:__anon4::Test_runner
+always_escape_nonascii	json_spirit/json_spirit_writer_options.h	/^                         always_escape_nonascii = 0x10,$/;"	e	enum:json_spirit::Output_options
+append_esc_char_and_incr_iter	json_spirit/json_spirit_reader_template.h	/^    void append_esc_char_and_incr_iter( String_type& s, $/;"	f	namespace:json_spirit
+array_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+array_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+assert_array_eq	json_test/json_spirit_value_test.cpp	/^    void assert_array_eq( const Value& v, const Array& a )$/;"	f	namespace:__anon1
+assert_eq	json_test/utils_test.cpp	/^void assert_eq( const double d1, const double d2, const double abs_error )$/;"	f
+assert_eq	json_test/utils_test.h	/^void assert_eq( const T1& t1, const T2& t2 )$/;"	f
+assert_equal	json_test/json_spirit_utils_test.cpp	/^        void assert_equal( const Obj_t& obj, const Map_t& mp_obj )$/;"	f	struct:__anon5::Test_runner
+assert_neq	json_test/utils_test.h	/^void assert_neq( const T1& t1, const T2& t2 )$/;"	f
+assert_obj_eq	json_test/json_spirit_value_test.cpp	/^    void assert_obj_eq( const Value& v, const Object& obj )$/;"	f	namespace:__anon1
+begin_	json_spirit/json_spirit_reader_template.h	/^        Mp_iter begin_;$/;"	m	struct:json_spirit::Multi_pass_iters
+begin_array	json_spirit/json_spirit_reader_template.h	/^        void begin_array( Char_type c )$/;"	f	class:json_spirit::Semantic_actions
+begin_compound	json_spirit/json_spirit_reader_template.h	/^        void begin_compound()$/;"	f	class:json_spirit::Semantic_actions
+begin_obj	json_spirit/json_spirit_reader_template.h	/^        void begin_obj( Char_type c )$/;"	f	class:json_spirit::Semantic_actions
+bool_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+check_an_int_is_a_real	json_test/json_spirit_value_test.cpp	/^    void check_an_int_is_a_real( Int i, bool expected_result )$/;"	f	namespace:__anon1
+check_an_int_is_a_real	json_test/json_spirit_value_test.cpp	/^    void check_an_int_is_a_real( Int i, double expected_result )$/;"	f	namespace:__anon1
+check_array	json_test/json_spirit_reader_test.cpp	/^        void check_array( const Value_type& value, typename Array_type::size_type expected_size )$/;"	f	struct:__anon3::Test_runner
+check_copy	json_test/json_spirit_value_test.cpp	/^    void check_copy( const T& t )$/;"	f	namespace:__anon1
+check_copying_null	json_test/json_spirit_value_test.cpp	/^    void check_copying_null()$/;"	f	namespace:__anon1
+check_eq	json_test/json_spirit_reader_test.cpp	/^        void check_eq( const Object_type& obj_1, const Object_type& obj_2 )$/;"	f	struct:__anon3::Test_runner
+check_eq	json_test/json_spirit_writer_test.cpp	/^        void check_eq( const Value_type& value, const String_type& expected_result )$/;"	f	struct:__anon4::Test_runner
+check_eq	json_test/json_spirit_writer_test.cpp	/^        void check_eq( const Value_type& value, const String_type& expected_result , Output_options options )$/;"	f	struct:__anon4::Test_runner
+check_eq	json_test/json_spirit_writer_test.cpp	/^        void check_eq( const Value_type& value, const char* expected_result )$/;"	f	struct:__anon4::Test_runner
+check_eq	json_test/json_spirit_writer_test.cpp	/^        void check_eq( const Value_type& value, const char* expected_result, Output_options options )$/;"	f	struct:__anon4::Test_runner
+check_eq_pretty	json_test/json_spirit_writer_test.cpp	/^        void check_eq_pretty( const Value_type& value, const char* expected_result )$/;"	f	struct:__anon4::Test_runner
+check_eq_single_line_arrays	json_test/json_spirit_writer_test.cpp	/^        void check_eq_single_line_arrays( const Value_type& value, const char* expected_result )$/;"	f	struct:__anon4::Test_runner
+check_find	json_test/json_spirit_utils_test.cpp	/^        void check_find( const Obj_t& obj, const char* name, const Value_type& expected_result )$/;"	f	struct:__anon5::Test_runner
+check_is_null	json_test/json_spirit_reader_test.cpp	/^        void check_is_null( const char* c_str  )$/;"	f	struct:__anon3::Test_runner
+check_map_cleared	json_test/json_spirit_utils_test.cpp	/^        void check_map_cleared()$/;"	f	struct:__anon5::Test_runner
+check_map_to_obj	json_test/json_spirit_utils_test.cpp	/^        void check_map_to_obj( const Map_t& mp_obj )$/;"	f	struct:__anon5::Test_runner
+check_obj_cleared	json_test/json_spirit_utils_test.cpp	/^        void check_obj_cleared()$/;"	f	struct:__anon5::Test_runner
+check_obj_to_map	json_test/json_spirit_utils_test.cpp	/^        void check_obj_to_map( const Obj_t& obj )$/;"	f	struct:__anon5::Test_runner
+check_pair_typedefs	json_test/json_spirit_value_test.cpp	/^    template< typename ObjectType > void check_pair_typedefs( ObjectType &object )$/;"	f	namespace:__anon1
+check_pair_typedefs	json_test/json_spirit_value_test.cpp	/^    void check_pair_typedefs()$/;"	f	namespace:__anon1
+check_precision_of_doubles	json_test/json_spirit_writer_test.cpp	/^        void check_precision_of_doubles( const char* expected_result_1, const char* expected_result_2 )$/;"	f	struct:__anon4::Test_runner
+check_precision_of_doubles	json_test/json_spirit_writer_test.cpp	/^        void check_precision_of_doubles( unsigned int precision, const char* expected_result_1, const char* expected_result_2 = 0 )$/;"	f	struct:__anon4::Test_runner
+check_read_fails	json_test/json_spirit_reader_test.cpp	/^        void check_read_fails( const char* c_str, int line, int column, const string& reason )$/;"	f	struct:__anon3::Test_runner
+check_reading	json_test/json_spirit_reader_test.cpp	/^        void check_reading( Int min_int, Int max_int )$/;"	f	struct:__anon3::Test_runner
+check_reading	json_test/json_spirit_reader_test.cpp	/^        void check_reading( const char* c_str )$/;"	f	struct:__anon3::Test_runner
+check_reading_array	json_test/json_spirit_reader_test.cpp	/^        void check_reading_array( Istream_type& is, typename Array_type::size_type expected_size )$/;"	f	struct:__anon3::Test_runner
+check_reading_array	json_test/json_spirit_reader_test.cpp	/^        void check_reading_array( Iter_type& begin, Iter_type end, typename Array_type::size_type expected_size )$/;"	f	struct:__anon3::Test_runner
+check_reading_arrays	json_test/json_spirit_reader_test.cpp	/^        void check_reading_arrays( const char* arrays_str )$/;"	f	struct:__anon3::Test_runner
+check_remove_trailing_zeros	json_test/json_spirit_writer_test.cpp	/^        void check_remove_trailing_zeros( const double value, const String_type& expected_str_with, const String_type& expected_str_without )$/;"	f	struct:__anon4::Test_runner
+check_remove_trailing_zeros	json_test/json_spirit_writer_test.cpp	/^        void check_remove_trailing_zeros( const double value, const char* expected_str_with, const char* expected_str_without )$/;"	f	struct:__anon4::Test_runner
+check_stream_read_or_throw	json_test/json_spirit_stream_reader_test.cpp	/^        void check_stream_read_or_throw( Stream_reader_thrower< Istream_type, Value_type >& reader, const vector< int >& expected_result )$/;"	f	struct:__anon2::Test_runner
+check_stream_reader	json_test/json_spirit_stream_reader_test.cpp	/^        void check_stream_reader( Stream_reader< Istream_type, Value_type >& reader, const vector< int >& expected_result )$/;"	f	struct:__anon2::Test_runner
+check_type	json_spirit/json_spirit_value.h	/^    void Value_impl< Config >::check_type( const Value_type vtype ) const$/;"	f	class:json_spirit::Value_impl
+check_value	json_test/json_spirit_reader_test.cpp	/^        void check_value( const char* c_str, const T& expected_value )$/;"	f	struct:__anon3::Test_runner
+check_value_sequence	json_test/json_spirit_reader_test.cpp	/^        void check_value_sequence( Istream_type& is, const Ints& expected_values, bool all_input_consumed )$/;"	f	struct:__anon3::Test_runner
+check_value_sequence	json_test/json_spirit_reader_test.cpp	/^        void check_value_sequence( Iter_type first, Iter_type last, const Ints& expected_values, bool all_input_consumed )$/;"	f	struct:__anon3::Test_runner
+check_value_sequence	json_test/json_spirit_reader_test.cpp	/^        void check_value_sequence( const char* c_str, const Ints& expected_values, bool all_input_consumed )$/;"	f	struct:__anon3::Test_runner
+check_wrong_type_exceptions	json_test/json_spirit_value_test.cpp	/^    void check_wrong_type_exceptions( const Value& v, const string& requested_type_name, const string& actual_type_name )$/;"	f	namespace:__anon1
+check_wrong_type_exceptions	json_test/json_spirit_value_test.cpp	/^    void check_wrong_type_exceptions( const string& requested_type_name )$/;"	f	namespace:__anon1
+column_	json_spirit/json_spirit_error_position.h	/^        unsigned int column_;$/;"	m	struct:json_spirit::Error_position
+contains_composite_elements	json_spirit/json_spirit_writer_template.h	/^        static bool contains_composite_elements( const Array_type& arr )$/;"	f	class:json_spirit::Generator
+country_	json_demo/json_demo.cpp	/^    string country_;$/;"	m	struct:Address	file:
+country_	json_demo_test.cpp	/^    string country_;$/;"	m	struct:Address	file:
+country_	json_headers_only_demo/json_headers_only_demo.cpp	/^    string country_;$/;"	m	struct:Address	file:
+country_	json_map_demo/json_map_demo.cpp	/^    string country_;$/;"	m	struct:Address	file:
+county_	json_demo/json_demo.cpp	/^    string county_;$/;"	m	struct:Address	file:
+county_	json_demo_test.cpp	/^    string county_;$/;"	m	struct:Address	file:
+county_	json_headers_only_demo/json_headers_only_demo.cpp	/^    string county_;$/;"	m	struct:Address	file:
+county_	json_map_demo/json_map_demo.cpp	/^    string county_;$/;"	m	struct:Address	file:
+current_p_	json_spirit/json_spirit_reader_template.h	/^        Value_type* current_p_;         \/\/ the child object or array that is currently being constructed$/;"	m	class:json_spirit::Semantic_actions
+definition	json_spirit/json_spirit_reader_template.h	/^            definition( const Json_grammer& self )$/;"	f	class:json_spirit::Json_grammer::definition
+definition	json_spirit/json_spirit_reader_template.h	/^        class definition$/;"	c	class:json_spirit::Json_grammer
+elements_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+end_	json_spirit/json_spirit_reader_template.h	/^        Mp_iter end_;$/;"	m	struct:json_spirit::Multi_pass_iters
+end_array	json_spirit/json_spirit_reader_template.h	/^        void end_array( Char_type c )$/;"	f	class:json_spirit::Semantic_actions
+end_compound	json_spirit/json_spirit_reader_template.h	/^        void end_compound()$/;"	f	class:json_spirit::Semantic_actions
+end_obj	json_spirit/json_spirit_reader_template.h	/^        void end_obj( Char_type c )$/;"	f	class:json_spirit::Semantic_actions
+esc_nonascii_	json_spirit/json_spirit_writer_template.h	/^        bool esc_nonascii_;$/;"	m	class:json_spirit::Generator
+find_value	json_map_demo/json_map_demo.cpp	/^const mValue& find_value( const mObject& obj, const string& name  )$/;"	f
+find_value	json_spirit/json_spirit_utils.h	/^    const typename Object_type::value_type::Value_type& find_value( const Object_type& obj, const String_type& name )$/;"	f	namespace:json_spirit
+get_array	json_spirit/json_spirit_value.h	/^    const typename Value_impl< Config >::Array& Value_impl< Config >::get_array() const$/;"	f	class:json_spirit::Value_impl
+get_array	json_spirit/json_spirit_value.h	/^    typename Value_impl< Config >::Array& Value_impl< Config >::get_array()$/;"	f	class:json_spirit::Value_impl
+get_bool	json_spirit/json_spirit_value.h	/^    bool Value_impl< Config >::get_bool() const$/;"	f	class:json_spirit::Value_impl
+get_int	json_spirit/json_spirit_value.h	/^    int Value_impl< Config >::get_int() const$/;"	f	class:json_spirit::Value_impl
+get_int64	json_spirit/json_spirit_value.h	/^    boost::int64_t Value_impl< Config >::get_int64() const$/;"	f	class:json_spirit::Value_impl
+get_name	json_spirit/json_spirit_value.h	/^        static const String_type& get_name( const Pair_type& pair )$/;"	f	struct:json_spirit::Config_map
+get_name	json_spirit/json_spirit_value.h	/^        static const String_type& get_name( const Pair_type& pair )$/;"	f	struct:json_spirit::Config_vector
+get_obj	json_spirit/json_spirit_value.h	/^    const typename Value_impl< Config >::Object& Value_impl< Config >::get_obj() const$/;"	f	class:json_spirit::Value_impl
+get_obj	json_spirit/json_spirit_value.h	/^    typename Value_impl< Config >::Object& Value_impl< Config >::get_obj()$/;"	f	class:json_spirit::Value_impl
+get_real	json_spirit/json_spirit_value.h	/^    double Value_impl< Config >::get_real() const$/;"	f	class:json_spirit::Value_impl
+get_str	json_spirit/json_spirit_reader_template.h	/^    String_type get_str( Iter_type begin, Iter_type end )$/;"	f	namespace:json_spirit
+get_str	json_spirit/json_spirit_reader_template.h	/^    inline std::string get_str( std::string::const_iterator begin, std::string::const_iterator end )$/;"	f	namespace:json_spirit
+get_str	json_spirit/json_spirit_reader_template.h	/^    inline std::wstring get_str( std::wstring::const_iterator begin, std::wstring::const_iterator end )$/;"	f	namespace:json_spirit
+get_str	json_spirit/json_spirit_value.h	/^    const typename Config::String_type& Value_impl< Config >::get_str() const$/;"	f	class:json_spirit::Value_impl
+get_str_	json_spirit/json_spirit_reader_template.h	/^    String_type get_str_( typename String_type::const_iterator begin, $/;"	f	namespace:json_spirit
+get_uint64	json_spirit/json_spirit_value.h	/^    boost::uint64_t Value_impl< Config >::get_uint64() const$/;"	f	class:json_spirit::Value_impl
+get_value	json_spirit/json_spirit_value.h	/^        bool get_value( const Value& value, Type_to_type< bool > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        boost::int64_t get_value( const Value& value, Type_to_type< boost::int64_t > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        boost::uint64_t get_value( const Value& value, Type_to_type< boost::uint64_t > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        double get_value( const Value& value, Type_to_type< double > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        int get_value( const Value& value, Type_to_type< int > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        static const Value_type& get_value( const Pair_type& pair )$/;"	f	struct:json_spirit::Config_map
+get_value	json_spirit/json_spirit_value.h	/^        static const Value_type& get_value( const Pair_type& pair )$/;"	f	struct:json_spirit::Config_vector
+get_value	json_spirit/json_spirit_value.h	/^        typename Value::Array get_value( const Value& value, Type_to_type< typename Value::Array > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        typename Value::Object get_value( const Value& value, Type_to_type< typename Value::Object > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^        typename Value::String_type get_value( const Value& value, Type_to_type< typename Value::String_type > )$/;"	f	namespace:json_spirit::internal_
+get_value	json_spirit/json_spirit_value.h	/^    T Value_impl< Config >::get_value() const$/;"	f	class:json_spirit::Value_impl
+hex_str_to_char	json_spirit/json_spirit_reader_template.h	/^    Char_type hex_str_to_char( Iter_type& begin )$/;"	f	namespace:json_spirit
+hex_to_num	json_spirit/json_spirit_reader_template.h	/^    Char_type hex_to_num( const Char_type c )$/;"	f	namespace:json_spirit
+house_number_	json_demo/json_demo.cpp	/^    int house_number_;$/;"	m	struct:Address	file:
+house_number_	json_demo_test.cpp	/^    int house_number_;$/;"	m	struct:Address	file:
+house_number_	json_headers_only_demo/json_headers_only_demo.cpp	/^    int house_number_;$/;"	m	struct:Address	file:
+house_number_	json_map_demo/json_map_demo.cpp	/^    int house_number_;$/;"	m	struct:Address	file:
+indent	json_spirit/json_spirit_writer_template.h	/^        void indent()$/;"	f	class:json_spirit::Generator
+indentation_level_	json_spirit/json_spirit_writer_template.h	/^        int indentation_level_;$/;"	m	class:json_spirit::Generator
+int64_p	json_spirit/json_spirit_reader_template.h	/^    const spirit_namespace::int_parser < boost::int64_t >  int64_p  = spirit_namespace::int_parser < boost::int64_t  >();$/;"	m	namespace:json_spirit
+int_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+internal_	json_spirit/json_spirit_value.h	/^    namespace internal_$/;"	n	namespace:json_spirit
+ios_saver_	json_spirit/json_spirit_writer_template.h	/^        boost::io::basic_ios_all_saver< Char_type > ios_saver_;  \/\/ so that ostream state is reset after control is returned to the caller$/;"	m	class:json_spirit::Generator
+is_eq	json_spirit/json_spirit_reader_template.h	/^    bool is_eq( Iter_type first, Iter_type last, const char* c_str )$/;"	f	namespace:json_spirit
+is_null	json_spirit/json_spirit_value.h	/^    bool Value_impl< Config >::is_null() const$/;"	f	class:json_spirit::Value_impl
+is_printable	json_test/json_spirit_writer_test.cpp	/^    bool is_printable( char c )$/;"	f	namespace:__anon4
+is_uint64	json_spirit/json_spirit_value.h	/^    bool Value_impl< Config >::is_uint64() const$/;"	f	class:json_spirit::Value_impl
+istream_iter	json_spirit/json_spirit_reader_template.h	/^        typedef std::istream_iterator< Char_type, Char_type > istream_iter;$/;"	t	struct:json_spirit::Multi_pass_iters
+iters_	json_spirit/json_spirit_stream_reader.h	/^        Mp_iters iters_;$/;"	m	class:json_spirit::Stream_reader
+iters_	json_spirit/json_spirit_stream_reader.h	/^        Mp_iters iters_;$/;"	m	class:json_spirit::Stream_reader_thrower
+json_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+json_spirit	json_spirit/json_spirit_error_position.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_reader.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_reader_template.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_stream_reader.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_utils.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_value.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_writer.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_writer_options.h	/^namespace json_spirit$/;"	n
+json_spirit	json_spirit/json_spirit_writer_template.h	/^namespace json_spirit$/;"	n
+json_spirit	json_test/json_spirit_reader_test.h	/^namespace json_spirit$/;"	n
+json_spirit	json_test/json_spirit_stream_reader_test.h	/^namespace json_spirit$/;"	n
+json_spirit	json_test/json_spirit_utils_test.h	/^namespace json_spirit$/;"	n
+json_spirit	json_test/json_spirit_value_test.h	/^namespace json_spirit$/;"	n
+json_spirit	json_test/json_spirit_writer_test.h	/^namespace json_spirit$/;"	n
+line_	json_spirit/json_spirit_error_position.h	/^        unsigned int line_;$/;"	m	struct:json_spirit::Error_position
+mArray	json_spirit/json_spirit_value.h	/^    typedef mConfig::Array_type  mArray;$/;"	t	namespace:json_spirit
+mConfig	json_spirit/json_spirit_value.h	/^    typedef Config_map< std::string > mConfig;$/;"	t	namespace:json_spirit
+mObject	json_spirit/json_spirit_value.h	/^    typedef mConfig::Object_type mObject;$/;"	t	namespace:json_spirit
+mValue	json_spirit/json_spirit_value.h	/^    typedef mConfig::Value_type  mValue;$/;"	t	namespace:json_spirit
+main	json_demo/json_demo.cpp	/^int main()$/;"	f
+main	json_demo_test.cpp	/^int main()$/;"	f
+main	json_headers_only_demo/json_headers_only_demo.cpp	/^int main()$/;"	f
+main	json_map_demo/json_map_demo.cpp	/^int main()$/;"	f
+main	json_test/json_test.cpp	/^int main()$/;"	f
+map_to_obj	json_spirit/json_spirit_utils.h	/^    void map_to_obj( const Map_t& mp_obj, Obj_t& obj )$/;"	f	namespace:json_spirit
+max_int64	json_test/json_spirit_value_test.cpp	/^    const int64_t max_int64   = integer_traits< int64_t  >::max();$/;"	m	namespace:__anon1	file:
+max_int64	json_test/json_spirit_writer_test.cpp	/^    const int64_t max_int64   = integer_traits< int64_t  >::max();$/;"	m	namespace:__anon4	file:
+max_uint64	json_test/json_spirit_value_test.cpp	/^    const uint64_t max_uint64 = integer_traits< uint64_t >::max();$/;"	m	namespace:__anon1	file:
+max_uint64	json_test/json_spirit_writer_test.cpp	/^    const uint64_t max_uint64 = integer_traits< uint64_t >::max();$/;"	m	namespace:__anon4	file:
+members_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+name_	json_spirit/json_spirit_reader_template.h	/^        String_type name_;              \/\/ of current name\/value pair$/;"	m	class:json_spirit::Semantic_actions
+name_	json_spirit/json_spirit_value.h	/^        String_type name_;$/;"	m	struct:json_spirit::Pair_impl
+new_false	json_spirit/json_spirit_reader_template.h	/^        void new_false( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Semantic_actions
+new_int	json_spirit/json_spirit_reader_template.h	/^        void new_int( boost::int64_t i )$/;"	f	class:json_spirit::Semantic_actions
+new_line	json_spirit/json_spirit_writer_template.h	/^        void new_line()$/;"	f	class:json_spirit::Generator
+new_name	json_spirit/json_spirit_reader_template.h	/^        void new_name( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Semantic_actions
+new_null	json_spirit/json_spirit_reader_template.h	/^        void new_null( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Semantic_actions
+new_real	json_spirit/json_spirit_reader_template.h	/^        void new_real( double d )$/;"	f	class:json_spirit::Semantic_actions
+new_str	json_spirit/json_spirit_reader_template.h	/^        void new_str( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Semantic_actions
+new_true	json_spirit/json_spirit_reader_template.h	/^        void new_true( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Semantic_actions
+new_uint64	json_spirit/json_spirit_reader_template.h	/^        void new_uint64( boost::uint64_t ui )$/;"	f	class:json_spirit::Semantic_actions
+non_printable_to_string	json_spirit/json_spirit_writer_template.h	/^    String_type non_printable_to_string( unsigned int c )$/;"	f	namespace:json_spirit
+none	json_spirit/json_spirit_writer_options.h	/^    enum Output_options{ none = 0,              \/\/ default options$/;"	e	enum:json_spirit::Output_options
+null	json_spirit/json_spirit_value.h	/^        static const Value_impl null;$/;"	m	class:json_spirit::Value_impl
+null	json_spirit/json_spirit_value.h	/^    const Value_impl< Config > Value_impl< Config >::null;$/;"	m	class:json_spirit::Value_impl
+null_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+number_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+obj_to_map	json_spirit/json_spirit_utils.h	/^    void obj_to_map( const Obj_t& obj, Map_t& mp_obj )$/;"	f	namespace:json_spirit
+obj_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+object_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+operator ()	json_spirit/json_spirit_value.h	/^              Variant operator()( const Cont< T, A >& cont ) const $/;"	f	class:json_spirit::Value_impl::Variant_converter_visitor
+operator ()	json_spirit/json_spirit_value.h	/^              Variant operator()( const T& t ) const $/;"	f	class:json_spirit::Value_impl::Variant_converter_visitor
+operator ()	json_spirit/json_spirit_value.h	/^              Variant operator()( int i ) const $/;"	f	class:json_spirit::Value_impl::Variant_converter_visitor
+operator =	json_spirit/json_spirit_value.h	/^    Value_impl< Config >& Value_impl< Config >::operator=( const Value_impl& lhs )$/;"	f	class:json_spirit::Value_impl
+operator ==	json_demo/json_demo.cpp	/^bool operator==( const Address& a1, const Address& a2 )$/;"	f
+operator ==	json_demo_test.cpp	/^bool operator==( const Address& a1, const Address& a2 )$/;"	f
+operator ==	json_headers_only_demo/json_headers_only_demo.cpp	/^bool operator==( const Address& a1, const Address& a2 )$/;"	f
+operator ==	json_map_demo/json_map_demo.cpp	/^bool operator==( const Address& a1, const Address& a2 )$/;"	f
+operator ==	json_spirit/json_spirit_error_position.h	/^    inline bool Error_position::operator==( const Error_position& lhs ) const$/;"	f	class:json_spirit::Error_position
+operator ==	json_spirit/json_spirit_value.h	/^    bool Pair_impl< Config >::operator==( const Pair_impl< Config >& lhs ) const$/;"	f	class:json_spirit::Pair_impl
+operator ==	json_spirit/json_spirit_value.h	/^    bool Value_impl< Config >::operator==( const Value_impl& lhs ) const$/;"	f	class:json_spirit::Value_impl
+operator ==	json_spirit/json_spirit_value.h	/^    inline bool operator==( const Null&, const Null& )$/;"	f	namespace:json_spirit
+os_	json_spirit/json_spirit_writer_template.h	/^        Ostream_type& os_;$/;"	m	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( bool b )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( const Array_type& arr )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( const Obj_member_type& member )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( const Object_type& obj )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( const String_type& s )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( const Value_type& value )$/;"	f	class:json_spirit::Generator
+output	json_spirit/json_spirit_writer_template.h	/^        void output( double d )$/;"	f	class:json_spirit::Generator
+output_array_or_obj	json_spirit/json_spirit_writer_template.h	/^        void output_array_or_obj( const T& t, Char_type start_char, Char_type end_char )$/;"	f	class:json_spirit::Generator
+output_composite_item	json_spirit/json_spirit_writer_template.h	/^        void output_composite_item( Iter i, Iter last )$/;"	f	class:json_spirit::Generator
+output_int	json_spirit/json_spirit_writer_template.h	/^        void output_int( const Value_type& value )$/;"	f	class:json_spirit::Generator
+pair_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+posn_begin_	json_spirit/json_spirit_stream_reader.h	/^        Posn_iter_t posn_begin_, posn_end_;$/;"	m	class:json_spirit::Stream_reader_thrower
+posn_end_	json_spirit/json_spirit_stream_reader.h	/^        Posn_iter_t posn_begin_, posn_end_;$/;"	m	class:json_spirit::Stream_reader_thrower
+precision_of_doubles_	json_spirit/json_spirit_writer_template.h	/^        int precision_of_doubles_;$/;"	m	class:json_spirit::Generator
+pretty_	json_spirit/json_spirit_writer_template.h	/^        bool pretty_;$/;"	m	class:json_spirit::Generator
+pretty_print	json_spirit/json_spirit_writer_options.h	/^                         pretty_print = 0x01,   \/\/ Add whitespace to format the output nicely.$/;"	e	enum:json_spirit::Output_options
+raw_utf8	json_spirit/json_spirit_writer_options.h	/^                         raw_utf8 = 0x02,       \/\/ This prevents non-printable characters from being escapted using "\\uNNNN" notation.$/;"	e	enum:json_spirit::Output_options
+raw_utf8_	json_spirit/json_spirit_writer_template.h	/^        bool raw_utf8_;$/;"	m	class:json_spirit::Generator
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( const std::string& s, Value& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( const std::string& s, mValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( const std::wstring& s, wValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( const std::wstring& s, wmValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::istream& is, Value& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::istream& is, mValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::string::const_iterator& begin, std::string::const_iterator end, Value& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::string::const_iterator& begin, std::string::const_iterator end, mValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::wistream& is, wValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::wistream& is, wmValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::wstring::const_iterator& begin, std::wstring::const_iterator end, wValue& value )$/;"	f	class:json_spirit
+read	json_spirit/json_spirit_reader.cpp	/^    bool json_spirit::read( std::wstring::const_iterator& begin, std::wstring::const_iterator end, wmValue& value )$/;"	f	class:json_spirit
+read_address	json_demo/json_demo.cpp	/^Address read_address( const Object& obj )$/;"	f
+read_address	json_demo_test.cpp	/^Address read_address( const Object& obj )$/;"	f
+read_address	json_headers_only_demo/json_headers_only_demo.cpp	/^Address read_address( const Object& obj )$/;"	f
+read_address	json_map_demo/json_map_demo.cpp	/^Address read_address( const mObject& obj )$/;"	f
+read_addrs	json_demo/json_demo.cpp	/^vector< Address > read_addrs( const char* file_name )$/;"	f
+read_addrs	json_demo_test.cpp	/^vector< Address > read_addrs( const char* file_name )$/;"	f
+read_addrs	json_headers_only_demo/json_headers_only_demo.cpp	/^vector< Address > read_addrs( const char* file_name )$/;"	f
+read_addrs	json_map_demo/json_map_demo.cpp	/^vector< Address > read_addrs( const char* file_name )$/;"	f
+read_cstr	json_test/json_spirit_reader_test.cpp	/^        Value_type read_cstr( const char* c_str )$/;"	f	struct:__anon3::Test_runner
+read_cstr	json_test/json_spirit_reader_test.cpp	/^        void read_cstr( const char* c_str, Value_type& value )$/;"	f	struct:__anon3::Test_runner
+read_next	json_spirit/json_spirit_stream_reader.h	/^        bool read_next( Value_type& value )$/;"	f	class:json_spirit::Stream_reader
+read_next	json_spirit/json_spirit_stream_reader.h	/^        void read_next( Value_type& value )$/;"	f	class:json_spirit::Stream_reader_thrower
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( const std::string& s, Value& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( const std::string& s, mValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( const std::wstring& s, wValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( const std::wstring& s, wmValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::istream& is, Value& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::istream& is, mValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::string::const_iterator& begin, std::string::const_iterator end, Value& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::string::const_iterator& begin, std::string::const_iterator end, mValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::wistream& is, wValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::wistream& is, wmValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::wstring::const_iterator& begin, std::wstring::const_iterator end, wValue& value )$/;"	f	class:json_spirit
+read_or_throw	json_spirit/json_spirit_reader.cpp	/^    void json_spirit::read_or_throw( std::wstring::const_iterator& begin, std::wstring::const_iterator end, wmValue& value )$/;"	f	class:json_spirit
+read_range	json_spirit/json_spirit_reader_template.h	/^    bool read_range( Iter_type& begin, Iter_type end, Value_type& value )$/;"	f	namespace:json_spirit
+read_range_or_throw	json_spirit/json_spirit_reader_template.h	/^    Iter_type read_range_or_throw( Iter_type begin, Iter_type end, Value_type& value )$/;"	f	namespace:json_spirit
+read_stream	json_spirit/json_spirit_reader_template.h	/^    bool read_stream( Istream_type& is, Value_type& value )$/;"	f	namespace:json_spirit
+read_stream_or_throw	json_spirit/json_spirit_reader_template.h	/^    void read_stream_or_throw( Istream_type& is, Value_type& value )$/;"	f	namespace:json_spirit
+read_string	json_spirit/json_spirit_reader_template.h	/^    bool read_string( const String_type& s, Value_type& value )$/;"	f	namespace:json_spirit
+read_string_or_throw	json_spirit/json_spirit_reader_template.h	/^    void read_string_or_throw( const String_type& s, Value_type& value )$/;"	f	namespace:json_spirit
+real_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+reason_	json_spirit/json_spirit_error_position.h	/^        std::string reason_;$/;"	m	struct:json_spirit::Error_position
+remove_trailing_zeros	json_spirit/json_spirit_writer_options.h	/^                         remove_trailing_zeros = 0x04,$/;"	e	enum:json_spirit::Output_options
+road_	json_demo/json_demo.cpp	/^    string road_;$/;"	m	struct:Address	file:
+road_	json_demo_test.cpp	/^    string road_;$/;"	m	struct:Address	file:
+road_	json_headers_only_demo/json_headers_only_demo.cpp	/^    string road_;$/;"	m	struct:Address	file:
+road_	json_map_demo/json_map_demo.cpp	/^    string road_;$/;"	m	struct:Address	file:
+run_tests	json_test/json_spirit_reader_test.cpp	/^        void run_tests()$/;"	f	struct:__anon3::Test_runner
+run_tests	json_test/json_spirit_stream_reader_test.cpp	/^        void run_tests()$/;"	f	struct:__anon2::Test_runner
+run_tests	json_test/json_spirit_utils_test.cpp	/^        void run_tests()$/;"	f	struct:__anon5::Test_runner
+run_tests	json_test/json_spirit_writer_test.cpp	/^        void run_tests()$/;"	f	struct:__anon4::Test_runner
+single_line_arrays	json_spirit/json_spirit_writer_options.h	/^                         single_line_arrays = 0x08,$/;"	e	enum:json_spirit::Output_options
+single_line_arrays_	json_spirit/json_spirit_writer_template.h	/^        bool single_line_arrays_;$/;"	m	class:json_spirit::Generator
+space	json_spirit/json_spirit_writer_template.h	/^        void space()$/;"	f	class:json_spirit::Generator
+spirit_namespace	json_spirit/json_spirit_reader_template.h	28;"	d
+spirit_namespace	json_spirit/json_spirit_reader_template.h	35;"	d
+stack_	json_spirit/json_spirit_reader_template.h	/^        std::vector< Value_type* > stack_;   \/\/ previous child objects and arrays$/;"	m	class:json_spirit::Semantic_actions
+start	json_spirit/json_spirit_reader_template.h	/^            const spirit_namespace::rule< ScannerT >& start() const { return json_; }$/;"	f	class:json_spirit::Json_grammer::definition
+str_type	json_spirit/json_spirit_value.h	/^    enum Value_type{ obj_type, array_type, str_type, bool_type, int_type, real_type, null_type };$/;"	e	enum:json_spirit::Value_type
+string_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+substitute_esc_chars	json_spirit/json_spirit_reader_template.h	/^    String_type substitute_esc_chars( typename String_type::const_iterator begin, $/;"	f	namespace:json_spirit
+test_always_esc_nonascii	json_test/json_spirit_writer_test.cpp	/^    void test_always_esc_nonascii()$/;"	f	namespace:__anon4
+test_an_int_is_a_real	json_test/json_spirit_value_test.cpp	/^    void test_an_int_is_a_real()$/;"	f	namespace:__anon1
+test_array_and_objs	json_test/json_spirit_writer_test.cpp	/^        void test_array_and_objs()$/;"	f	struct:__anon4::Test_runner
+test_array_value	json_test/json_spirit_value_test.cpp	/^    void test_array_value()$/;"	f	namespace:__anon1
+test_array_with_grandchild_array	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_grandchild_array()$/;"	f	struct:__anon4::Test_runner
+test_array_with_n_members	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_n_members()$/;"	f	struct:__anon4::Test_runner
+test_array_with_one_child_array	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_one_child_array()$/;"	f	struct:__anon4::Test_runner
+test_array_with_one_empty_child_array	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_one_empty_child_array()$/;"	f	struct:__anon4::Test_runner
+test_array_with_one_member	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_one_member()$/;"	f	struct:__anon4::Test_runner
+test_array_with_two_members	json_test/json_spirit_writer_test.cpp	/^        void test_array_with_two_members()$/;"	f	struct:__anon4::Test_runner
+test_bool_value	json_test/json_spirit_value_test.cpp	/^    void test_bool_value()$/;"	f	namespace:__anon1
+test_comments	json_test/json_spirit_reader_test.cpp	/^        void test_comments()$/;"	f	struct:__anon3::Test_runner
+test_container_constructor	json_test/json_spirit_value_test.cpp	/^        void test_container_constructor( const Cont& cont )$/;"	f	class:__anon1::Container_constructor_runner	file:
+test_container_constructor	json_test/json_spirit_value_test.cpp	/^    void test_container_constructor()$/;"	f	namespace:__anon1
+test_copying	json_test/json_spirit_value_test.cpp	/^    void test_copying()$/;"	f	namespace:__anon1
+test_disabling_nonprintable_esc_chars	json_test/json_spirit_writer_test.cpp	/^        void test_disabling_nonprintable_esc_chars()$/;"	f	struct:__anon4::Test_runner
+test_empty_array	json_test/json_spirit_writer_test.cpp	/^        void test_empty_array()$/;"	f	struct:__anon4::Test_runner
+test_empty_obj	json_test/json_spirit_writer_test.cpp	/^        void test_empty_obj()$/;"	f	struct:__anon4::Test_runner
+test_error_cases	json_test/json_spirit_reader_test.cpp	/^        void test_error_cases()$/;"	f	struct:__anon3::Test_runner
+test_escape_char	json_test/json_spirit_writer_test.cpp	/^        void test_escape_char( const char* esc_str_in, const char* esc_str_out, Output_options options = none )$/;"	f	struct:__anon4::Test_runner
+test_escape_chars	json_test/json_spirit_reader_test.cpp	/^        void test_escape_chars( const char* json_str, const char* c_str )$/;"	f	struct:__anon3::Test_runner
+test_escape_chars	json_test/json_spirit_reader_test.cpp	/^        void test_escape_chars()$/;"	f	struct:__anon3::Test_runner
+test_escape_chars	json_test/json_spirit_writer_test.cpp	/^        void test_escape_chars()$/;"	f	struct:__anon4::Test_runner
+test_extended_ascii	json_test/json_spirit_reader_test.cpp	/^    void test_extended_ascii( const string& s )$/;"	f	namespace:__anon3
+test_extended_ascii	json_test/json_spirit_reader_test.cpp	/^    void test_extended_ascii()$/;"	f	namespace:__anon3
+test_extended_ascii	json_test/json_spirit_writer_test.cpp	/^    void test_extended_ascii()$/;"	f	namespace:__anon4
+test_find	json_test/json_spirit_utils_test.cpp	/^        void test_find()$/;"	f	struct:__anon5::Test_runner
+test_from_stream	json_test/json_spirit_reader_test.cpp	/^        void test_from_stream( const char* json_str, bool expected_success,$/;"	f	struct:__anon3::Test_runner
+test_from_stream	json_test/json_spirit_reader_test.cpp	/^        void test_from_stream()$/;"	f	struct:__anon3::Test_runner
+test_get_value	json_test/json_spirit_value_test.cpp	/^    void test_get_value( const T& t )$/;"	f	namespace:__anon1
+test_get_value	json_test/json_spirit_value_test.cpp	/^    void test_get_value()$/;"	f	namespace:__anon1
+test_int_value	json_test/json_spirit_value_test.cpp	/^    void test_int_value()$/;"	f	namespace:__anon1
+test_ios_state_saved	json_test/json_spirit_writer_test.cpp	/^        void test_ios_state_saved()$/;"	f	struct:__anon4::Test_runner
+test_is_uint64	json_test/json_spirit_value_test.cpp	/^    void test_is_uint64()$/;"	f	namespace:__anon1
+test_multiple_options	json_test/json_spirit_writer_test.cpp	/^        void test_multiple_options()$/;"	f	struct:__anon4::Test_runner
+test_null_value	json_test/json_spirit_value_test.cpp	/^    void test_null_value()$/;"	f	namespace:__anon1
+test_obj_and_arrays	json_test/json_spirit_writer_test.cpp	/^        void test_obj_and_arrays()$/;"	f	struct:__anon4::Test_runner
+test_obj_map_implemention	json_test/json_spirit_value_test.cpp	/^    void test_obj_map_implemention()$/;"	f	namespace:__anon1
+test_obj_to_map	json_test/json_spirit_utils_test.cpp	/^        void test_obj_to_map()$/;"	f	struct:__anon5::Test_runner
+test_obj_value	json_test/json_spirit_value_test.cpp	/^    void test_obj_value()$/;"	f	namespace:__anon1
+test_obj_with_grandchild_obj	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_grandchild_obj()$/;"	f	struct:__anon4::Test_runner
+test_obj_with_one_child_obj	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_one_child_obj()$/;"	f	struct:__anon4::Test_runner
+test_obj_with_one_empty_child_obj	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_one_empty_child_obj()$/;"	f	struct:__anon4::Test_runner
+test_obj_with_one_member	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_one_member()$/;"	f	struct:__anon4::Test_runner
+test_obj_with_three_members	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_three_members()$/;"	f	struct:__anon4::Test_runner
+test_obj_with_two_members	json_test/json_spirit_writer_test.cpp	/^        void test_obj_with_two_members()$/;"	f	struct:__anon4::Test_runner
+test_objs_with_bool_pairs	json_test/json_spirit_writer_test.cpp	/^        void test_objs_with_bool_pairs()$/;"	f	struct:__anon4::Test_runner
+test_objs_with_int_pairs	json_test/json_spirit_writer_test.cpp	/^        void test_objs_with_int_pairs()$/;"	f	struct:__anon4::Test_runner
+test_objs_with_null_pairs	json_test/json_spirit_writer_test.cpp	/^        void test_objs_with_null_pairs()$/;"	f	struct:__anon4::Test_runner
+test_objs_with_real_pairs	json_test/json_spirit_writer_test.cpp	/^        void test_objs_with_real_pairs()$/;"	f	struct:__anon4::Test_runner
+test_precision_of_doubles	json_test/json_spirit_writer_test.cpp	/^        void test_precision_of_doubles()$/;"	f	struct:__anon4::Test_runner
+test_read	json_test/json_spirit_reader_test.cpp	/^    void test_read( const String_type& s, Value_type& value )$/;"	f	namespace:__anon3
+test_read_range	json_test/json_spirit_reader_test.cpp	/^        bool test_read_range( Iter_type& first, Iter_type last, Value_type& value )$/;"	f	struct:__anon3::Test_runner
+test_reader	json_test/json_spirit_reader_test.cpp	/^void json_spirit::test_reader()$/;"	f	class:json_spirit
+test_reading	json_test/json_spirit_reader_test.cpp	/^        void test_reading()$/;"	f	struct:__anon3::Test_runner
+test_reading_reals	json_test/json_spirit_reader_test.cpp	/^        void test_reading_reals()$/;"	f	struct:__anon3::Test_runner
+test_real_value	json_test/json_spirit_value_test.cpp	/^    void test_real_value()$/;"	f	namespace:__anon1
+test_remove_trailing_zeros	json_test/json_spirit_writer_test.cpp	/^        void test_remove_trailing_zeros()$/;"	f	struct:__anon4::Test_runner
+test_sequence_of_values	json_test/json_spirit_reader_test.cpp	/^        void test_sequence_of_values()$/;"	f	struct:__anon3::Test_runner
+test_stream_reader	json_test/json_spirit_stream_reader_test.cpp	/^        void test_stream_reader( const char* s )$/;"	f	struct:__anon2::Test_runner
+test_stream_reader	json_test/json_spirit_stream_reader_test.cpp	/^void json_spirit::test_stream_reader()$/;"	f	class:json_spirit
+test_syntax	json_test/json_spirit_reader_test.cpp	/^        void test_syntax( Int min_int, Int max_int )$/;"	f	struct:__anon3::Test_runner
+test_syntax	json_test/json_spirit_reader_test.cpp	/^        void test_syntax( const char* c_str, bool expected_success = true )$/;"	f	struct:__anon3::Test_runner
+test_syntax	json_test/json_spirit_reader_test.cpp	/^        void test_syntax()$/;"	f	struct:__anon3::Test_runner
+test_to_stream	json_test/json_spirit_writer_test.cpp	/^        void test_to_stream()$/;"	f	struct:__anon4::Test_runner
+test_types	json_test/json_spirit_reader_test.cpp	/^        void test_types()$/;"	f	struct:__anon3::Test_runner
+test_uint64	json_test/json_spirit_reader_test.cpp	/^        void test_uint64( const char* value_str, int expected_int, int64_t expected_int64, uint64_t expected_uint64 )$/;"	f	struct:__anon3::Test_runner
+test_uint64	json_test/json_spirit_reader_test.cpp	/^        void test_uint64()$/;"	f	struct:__anon3::Test_runner
+test_uint64	json_test/json_spirit_writer_test.cpp	/^        void test_uint64()$/;"	f	struct:__anon4::Test_runner
+test_utils	json_test/json_spirit_utils_test.cpp	/^void json_spirit::test_utils()$/;"	f	class:json_spirit
+test_value	json_test/json_spirit_value_test.cpp	/^void json_spirit::test_value()$/;"	f	class:json_spirit
+test_values	json_test/json_spirit_reader_test.cpp	/^        void test_values()$/;"	f	struct:__anon3::Test_runner
+test_values	json_test/json_spirit_writer_test.cpp	/^        void test_values()$/;"	f	struct:__anon4::Test_runner
+test_variant_array_constructor	json_test/json_spirit_value_test.cpp	/^        void test_variant_array_constructor( const Cont< T, A >& cont )$/;"	f	class:__anon1::Variant_constructor_runner	file:
+test_variant_constructor	json_test/json_spirit_value_test.cpp	/^        void test_variant_constructor( const T& t )$/;"	f	class:__anon1::Variant_constructor_runner	file:
+test_variant_constructor	json_test/json_spirit_value_test.cpp	/^    void test_variant_constructor()$/;"	f	namespace:__anon1
+test_wide_esc_u	json_test/json_spirit_reader_test.cpp	/^    void test_wide_esc_u()$/;"	f	namespace:__anon3
+test_wide_esc_u	json_test/json_spirit_writer_test.cpp	/^    void test_wide_esc_u( wchar_t c, const wstring& result)$/;"	f	namespace:__anon4
+test_wide_esc_u	json_test/json_spirit_writer_test.cpp	/^    void test_wide_esc_u()$/;"	f	namespace:__anon4
+test_writer	json_test/json_spirit_writer_test.cpp	/^void json_spirit::test_writer()$/;"	f	class:json_spirit
+test_wrong_type_exceptions	json_test/json_spirit_value_test.cpp	/^    void test_wrong_type_exceptions()$/;"	f	namespace:__anon1
+throw_error	json_spirit/json_spirit_reader_template.h	/^    void throw_error( Iter_type i, const std::string& reason )$/;"	f	namespace:json_spirit
+throw_error	json_spirit/json_spirit_reader_template.h	/^    void throw_error( spirit_namespace::position_iterator< Iter_type > i, const std::string& reason )$/;"	f	namespace:json_spirit
+throw_not_array	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_array( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+throw_not_colon	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_colon( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+throw_not_object	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_object( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+throw_not_pair	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_pair( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+throw_not_string	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_string( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+throw_not_value	json_spirit/json_spirit_reader_template.h	/^        static void throw_not_value( Iter_type begin, Iter_type end )$/;"	f	class:json_spirit::Json_grammer
+to_hex_char	json_spirit/json_spirit_writer_template.h	/^    inline char to_hex_char( unsigned int c )$/;"	f	namespace:json_spirit
+to_str	json_spirit/json_spirit_value.h	/^    String_type to_str( const char* c_str )$/;"	f	namespace:json_spirit
+to_str	json_test/json_spirit_reader_test.cpp	/^        String_type to_str( const char* c_str )$/;"	f	struct:__anon3::Test_runner
+to_str	json_test/json_spirit_stream_reader_test.cpp	/^        String_type to_str( const char* c_str )$/;"	f	struct:__anon2::Test_runner
+to_str	json_test/json_spirit_utils_test.cpp	/^        String_type to_str( const char* c_str )$/;"	f	struct:__anon5::Test_runner
+to_str	json_test/json_spirit_writer_test.cpp	/^        String_type to_str( const char* c_str )$/;"	f	struct:__anon4::Test_runner
+town_	json_demo/json_demo.cpp	/^    string town_;$/;"	m	struct:Address	file:
+town_	json_demo_test.cpp	/^    string town_;$/;"	m	struct:Address	file:
+town_	json_headers_only_demo/json_headers_only_demo.cpp	/^    string town_;$/;"	m	struct:Address	file:
+town_	json_map_demo/json_map_demo.cpp	/^    string town_;$/;"	m	struct:Address	file:
+type	json_spirit/json_spirit_value.h	/^    Value_type Value_impl< Config >::type() const$/;"	f	class:json_spirit::Value_impl
+uint64_p	json_spirit/json_spirit_reader_template.h	/^    const spirit_namespace::uint_parser< boost::uint64_t > uint64_p = spirit_namespace::uint_parser< boost::uint64_t >();$/;"	m	namespace:json_spirit
+unicode_str_to_char	json_spirit/json_spirit_reader_template.h	/^    Char_type unicode_str_to_char( Iter_type& begin )$/;"	f	namespace:json_spirit
+v_	json_spirit/json_spirit_value.h	/^        Variant v_;$/;"	m	class:json_spirit::Value_impl
+value_	json_spirit/json_spirit_reader_template.h	/^            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;$/;"	m	class:json_spirit::Json_grammer::definition
+value_	json_spirit/json_spirit_reader_template.h	/^        Value_type& value_;             \/\/ this is the object or array that is being created$/;"	m	class:json_spirit::Semantic_actions
+value_	json_spirit/json_spirit_value.h	/^        Value_type value_;$/;"	m	struct:json_spirit::Pair_impl
+value_type_to_string	json_spirit/json_spirit_value.h	/^    static std::string value_type_to_string( const Value_type vtype )$/;"	f	namespace:json_spirit
+wArray	json_spirit/json_spirit_value.h	/^    typedef wConfig::Array_type  wArray;$/;"	t	namespace:json_spirit
+wConfig	json_spirit/json_spirit_value.h	/^    typedef Config_vector< std::wstring > wConfig;$/;"	t	namespace:json_spirit
+wMapped_obj	json_spirit/json_spirit_utils.h	/^    typedef std::map< std::wstring, wValue > wMapped_obj;$/;"	t	namespace:json_spirit
+wObject	json_spirit/json_spirit_value.h	/^    typedef wConfig::Object_type wObject;$/;"	t	namespace:json_spirit
+wPair	json_spirit/json_spirit_value.h	/^    typedef wConfig::Pair_type   wPair;$/;"	t	namespace:json_spirit
+wValue	json_spirit/json_spirit_value.h	/^    typedef wConfig::Value_type  wValue;$/;"	t	namespace:json_spirit
+wmArray	json_spirit/json_spirit_value.h	/^    typedef wmConfig::Array_type  wmArray;$/;"	t	namespace:json_spirit
+wmConfig	json_spirit/json_spirit_value.h	/^    typedef Config_map< std::wstring > wmConfig;$/;"	t	namespace:json_spirit
+wmObject	json_spirit/json_spirit_value.h	/^    typedef wmConfig::Object_type wmObject;$/;"	t	namespace:json_spirit
+wmValue	json_spirit/json_spirit_value.h	/^    typedef wmConfig::Value_type  wmValue;$/;"	t	namespace:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    std::string json_spirit::write( const Value& value, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    std::string json_spirit::write( const mValue& value, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    std::wstring json_spirit::write( const wValue& value, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    std::wstring json_spirit::write( const wmValue& value, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write( const Value& value, std::ostream& os, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write( const mValue& value, std::ostream& os, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write( const wValue& value, std::wostream& os, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write( const wmValue& value, std::wostream& os, int options, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_address	json_demo/json_demo.cpp	/^void write_address( Array& a, const Address& addr )$/;"	f
+write_address	json_demo_test.cpp	/^void write_address( Array& a, const Address& addr )$/;"	f
+write_address	json_headers_only_demo/json_headers_only_demo.cpp	/^void write_address( Array& a, const Address& addr )$/;"	f
+write_address	json_map_demo/json_map_demo.cpp	/^void write_address( mArray& a, const Address& addr )$/;"	f
+write_addrs	json_demo/json_demo.cpp	/^void write_addrs( const char* file_name, const Address addrs[] )$/;"	f
+write_addrs	json_demo_test.cpp	/^void write_addrs( const char* file_name, const Address addrs[] )$/;"	f
+write_addrs	json_headers_only_demo/json_headers_only_demo.cpp	/^void write_addrs( const char* file_name, const Address addrs[] )$/;"	f
+write_addrs	json_map_demo/json_map_demo.cpp	/^void write_addrs( const char* file_name, const Address addrs[] )$/;"	f
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    std::string json_spirit::write_formatted( const Value& value, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    std::string json_spirit::write_formatted( const mValue& value, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    std::wstring json_spirit::write_formatted( const wValue& value, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    std::wstring json_spirit::write_formatted( const wmValue& value, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write_formatted( const Value& value, std::ostream& os, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write_formatted( const mValue& value, std::ostream& os, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write_formatted( const wValue& value, std::wostream& os, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_formatted	json_spirit/json_spirit_writer.cpp	/^    void json_spirit::write_formatted( const wmValue& value, std::wostream& os, unsigned int precision_of_doubles )$/;"	f	class:json_spirit
+write_stream	json_spirit/json_spirit_writer_template.h	/^    void write_stream( const Value_type& value, Ostream_type& os, int options = none, unsigned int precision_of_doubles = 0 )$/;"	f	namespace:json_spirit
+write_string	json_spirit/json_spirit_writer_template.h	/^    typename Value_type::String_type write_string( const Value_type& value, int options = none, unsigned int precision_of_doubles = 0 )$/;"	f	namespace:json_spirit
+zero_str	json_test/json_spirit_writer_test.cpp	/^        String_type zero_str()$/;"	f	struct:__anon4::Test_runner

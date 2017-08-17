@@ -1,0 +1,88 @@
+#!/usr/bin/php
+<?php
+
+
+require_once 'SSDB.php';
+
+//$host = '10.138.70.241';
+//$port = 19860;
+//$host = '10.119.131.85';
+//$port = 8996;
+//$host = '10.119.131.77';
+//$port = 8998;
+//$host = '10.119.105.107';
+//$port = 8811;
+//$host = '10.129.103.70';
+//$port = 8999;
+$host = '10.173.29.227';
+$port = 18600;
+//$host = '10.119.113.73';
+//$host = '10.119.131.77';
+//$port = 8811;
+//$host = '10.172.171.142';
+//$port = 18600;
+//$host = '10.172.171.140';
+//$port = 18559;
+//$host = '10.119.87.26';
+//$port = 8811;
+//$host = '127.0.0.1';
+//$host = '10.125.93.56';
+//$port = 18600;
+
+$confs = array();
+
+$fp = fopen("php://stdin", "r");
+while ($fp && !feof($fp)) {
+    $line = fgets($fp);
+    $line = trim($line);
+    if (!$line)
+        continue;
+    $line = preg_replace("/\s+/i", " ", $line);
+    $line = preg_replace("/:/i", " ", $line);
+    $arr = explode(" ", $line);
+    if (count($arr) < 2)
+        continue;
+    $confs[] = array($arr[0], $arr[1]);
+}
+fclose($fp);
+
+if (!$confs)
+    $confs[] = array($host, $port);
+
+if( $argc <= 1)
+	echo "do nothing\n";
+else{
+    foreach($confs as $arr) {
+        $host = $arr[0];
+        $port = $arr[1];
+        try{
+            $ssdb = new SimpleSSDB($host, $port, 600000*200);
+        } catch (Exception $e) {
+            printf("%s:%s, Exception:%s\n", $host, $port, $e->getMessage());
+            continue;
+        }
+
+	$func = $argv[1];
+	printf("%s:%s, ssdb->%s(%s)  ---------------> \n", $host, $port, $func, implode(", ", array_slice($argv, 2)));
+
+	if( $argc == 2)
+		$ret = $ssdb->$func( );
+	if( $argc == 3)
+		$ret = $ssdb->$func( $argv[2]);
+	if( $argc == 4)
+		$ret = $ssdb->$func( $argv[2], $argv[3]);
+	if( $argc == 5)
+		$ret = $ssdb->$func( $argv[2], $argv[3], $argv[4]);
+	if( $argc == 6)
+		$ret = $ssdb->$func( $argv[2], $argv[3], $argv[4], $argv[5]);
+	if( $argc == 7)
+		$ret = $ssdb->$func( $argv[2], $argv[3], $argv[4], $argv[5], $argv[6]);
+
+	print_r($ret["q"]);
+	
+	echo $ret;
+        echo "\n";
+    }
+}
+
+?>
