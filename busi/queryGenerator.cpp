@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <set>
 #include "queryGenerator.h"
 #include "obtainData_Ssdb.h"
 #include "log.h"
@@ -21,6 +22,7 @@ int QueryGenerator::Run (const std::string& originQuery, void* ret){
     int i, len = m_sourceConfig.size();         
     qStruct.clear ();
     QueryStruct qRet; 
+    std::set <std::string> uniqItem;
     for (i = 0; i < len; i ++){
         std::string source = m_sourceConfig.at(i); 
         std::string server = m_serverConfig.at (i);
@@ -33,6 +35,13 @@ int QueryGenerator::Run (const std::string& originQuery, void* ret){
         od_ssdb.Run (originQuery, &qRet);
         FOR_EACH(r, qRet.responseValue){
             (r->dataInfo).source = source; 
+            if (originQuery == (r->data).query){
+                continue; 
+            }
+            if (uniqItem.count ((r->data).query) > 0){
+                continue; 
+            }
+            uniqItem.insert ((r->data).query);
             qStruct.responseValue.push_back(*r);
             log (LOG_NOTICE, "QueryGenerator::Run source: %s, query: %s, sim: %lf", source.c_str(), (r->data).query.c_str(), (r->dataInfo).sim);
         }

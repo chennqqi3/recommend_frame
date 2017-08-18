@@ -202,6 +202,7 @@ int ObtainUrl_Http::Run (const std::string& query, void* ret){
     if (readHttp(query, &urlJson)){
         return 1; 
     }
+    log (LOG_NOTICE, "ObtainUrl_Http::Run ret: %s.", urlJson.c_str());
     jsonParse (query, urlJson);   
     *(QueryStruct*) ret = urlStruct; 
 } 

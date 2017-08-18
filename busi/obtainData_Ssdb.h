@@ -26,15 +26,18 @@ private:
     bool isEn(const char* str);
     bool isExist(const std::vector<Item>& itemSet, const Item& obj);
 private:
+    int jsonParse (const std::string str, int);
     int jsonParse(const std::string str);
     int readConfig();
     int readSsdb(const std::string originQuery, void* ret);
+    int jsonParseTableData (const Value& tableData, std::vector<Item>* tableInfo);
     int filter();
 private:
     std::string m_config;
     std::string m_ssdbServer;
     int m_ssdbPort;
     std::string m_tableName;
+    std::vector<std::string> m_tableList;
     double m_simFilter;
     QueryStruct qStruct;
 };

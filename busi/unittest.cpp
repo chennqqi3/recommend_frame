@@ -39,16 +39,16 @@ void parseJson(const std::string& str){
 }
 int main (){
     std::cout << "unit test" << std::endl;
-    ObtainData_Ssdb query ("unittest.log", "page9.se.zzzc.qihoo.net", 18600, "q2q_nlp", 0.0);
+    ObtainData_Ssdb query ("unittest.log", "page9.se.zzzc.qihoo.net", 18600, "q2q_rec_nlp", 0.0);
     QueryGenerator queryG;
     queryG.Init ("queryGenerator.ini", "unittest.log");
     std::string q;
     std::string ret;
     QueryStruct qStruct;
-    ObtainUrl_Http obtHttp (qStruct, "server", 10, "unittest.log");
+    ObtainUrl_Http obtHttp (qStruct, "page10.se.zzzc.qihoo.net", 18600, "unittest.log");
     while (std::cin>>q){
         queryG.Run (q, &qStruct);
-  //      obtHttp.Run (q, &qStruct);
+   //     obtHttp.Run (q, &qStruct);
     }
     return 0;
 }

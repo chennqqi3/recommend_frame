@@ -1,10 +1,11 @@
+#include <stdlib.h>
 #include "obtainData_Ssdb.h"
 #include "ssdb_wrapper.h"
 #include "ini.h"
 #include "log.h"
 #include "util.h"
 #include "md5.h"
-
+// #include "serializer.h"
 
 ObtainData_Ssdb::ObtainData_Ssdb(){
     
@@ -117,6 +118,43 @@ int ObtainData_Ssdb::getJsonValue (const Object& jsonObj, const std::string& fie
     }
     return 1;
 }
+int ObtainData_Ssdb::jsonParseTableData (const Value& tableData, std::vector<Item>* tableInfo){
+    if (NULL == tableInfo){
+        log (LOG_ERROR, "ObtainData_Ssdb::jsonParseTableData input tableInfo Error");
+        return 1; 
+    }
+    const Array& tableItemValue = tableData.get_array (); 
+    unsigned int i, len = tableItemValue.size();
+    for (i = 0; i < len; i ++){
+        Item targetItem;
+        Object obj = tableItemValue[i].get_obj(); 
+        const Pair& jsonPair = obj[0];
+        targetItem.data.query = jsonPair.name_;
+        targetItem.dataInfo.sim = atof (jsonPair.value_.get_str().c_str());
+    }
+    return 0;
+}
+int ObtainData_Ssdb::jsonParse (const std::string str, int){
+    Value rootValue;
+    std::vector <Item> itemList;
+    if (!read (str, rootValue)){
+        log (LOG_ERROR, "ObtainData_Ssdb::JsonParase read string error"); 
+        return -1;
+        Value tableData;
+        FOR_EACH (str, m_tableList){
+            if (getJsonValue (rootValue.get_obj(), *str, &tableData)){
+                log (LOG_ERROR, "ObtainData_Ssdb::JsonParase obtain table: %s ERROR", (*str).c_str()); 
+                continue;
+            } 
+            if (jsonParseTableData (tableData, &itemList));
+            qStruct.responseValue.insert (
+                    qStruct.responseValue.end(),
+                    itemList.begin(),
+                    itemList.end());
+        }
+    }
+    return 0;
+}
 int ObtainData_Ssdb::jsonParse (const std::string str){
     Value jsonValue;    
     if (!read (str, jsonValue)){
@@ -165,11 +203,13 @@ int ObtainData_Ssdb::Run(const std::string& originQuery, void* ret){
     std::string queryMd5 = MD5(originQuery).toString();
     log (LOG_NOTICE, "ObtainData_Ssdb::Run originQuery: %s, md5sum: %s", originQuery.c_str(), queryMd5.c_str());
     std::string retStr;
+    m_tableList.push_back ("rec");
+    m_tableList.push_back ("nlp");
     if (readSsdb(queryMd5, &retStr)){
         log (LOG_ERROR, "read ssdb error");
         return 1;
     }
-    if (jsonParse (retStr)){
+    if (jsonParse (retStr, 0)){
         log (LOG_ERROR, "jsonParse error"); 
     }
 
